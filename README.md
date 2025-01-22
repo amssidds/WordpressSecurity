@@ -8,11 +8,12 @@ This project provides a comprehensive guide to configuring essential WordPress p
 Follow these steps to secure your WordPress website:
 
 1. **Install WordFence Plugin**  
-   - Enable the free version by following the "Obtain License Key" steps provided in the plugin documentation.  
+   - Enable the free version by following the "Obtain License Key" steps in the plugin documentation.  
 2. **Install Loginizer**  
    - Protect your website from enhanced brute force attacks.  
 3. **Install HSTS Ready**  
-   - Implement HTTP Strict Transport Security (HSTS) to prevent MiTM attacks.  
+   - Implement HTTP Strict Transport Security (HSTS) to prevent MiTM attacks.
+   - (Note) Installing the App itself auto-applies the settings. You won't need to do anything
 4. **Explore Configuration Steps**  
    - Visit each folder in the repository for detailed configuration guides for each plugin.  
 
@@ -20,5 +21,5 @@ Follow these steps to secure your WordPress website:
 
 ## Folder Structure
 
-The repository is organized into folders for each plugin or configuration step. Navigate through the folders to find detailed Markdown files outlining the specific configurations and steps.
+The repository is organized into folders for each plugin or configuration step. You can just navigate through the folders to find detailed Markdown files outlining the specific configurations and steps.
 
